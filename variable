@@ -1,0 +1,11 @@
+echo "Welcome to Program"
+function multiplicationofNumbers()
+{
+multiply=$(($a*$b))
+echo $multiply
+}
+multiply="$(multiplicationofNumbers 2 5)"
+echo $multiply
+product="$(multiplicationofNumbers 10 20)"
+echo $product
+
